@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.8rem 1.5rem;
+}
+
+header img {
+    max-width: 100%;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+header nav a {
+    color: #000;
+    font-size: 1.6rem;
+}
+
+header nav button {
+    background-color: rgba(126, 211, 33, 0.4);
+    color: #1C4701;
+    padding: .9rem 3.2rem;
+    border-radius: 1.5rem;
+}
+
+header nav button, header{
+    font-weight: 700;
+}
